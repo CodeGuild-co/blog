@@ -16,6 +16,6 @@ body {
 .theme-showcase .navbar .container {
   width: auto;
 }
-.nav-pills > .active > a, .nav-pills > .active > a:hover {
+.nav-pills a{
     background-color: white;
 }
