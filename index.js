@@ -17,6 +17,8 @@ app.get('/test', function(request, response) {
   response.render('pages/test');
 });
 
+app.use(express.static('public'));
+
 app.get('/posts/:post/', function(request, response) {
     response.render('posts/' + request.params.post);
 });
