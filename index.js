@@ -23,6 +23,7 @@ app.get('/posts/:post/', function(request, response) {
     response.render('posts/' + request.params.post);
 });
 
+
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
 });
